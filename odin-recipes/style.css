@@ -1,4 +1,4 @@
-*{
+* {
     line-height: 1.5;
 }
 
@@ -16,4 +16,37 @@ ul{
 
 h1{
     color: darkred;
+}
+
+.recipe-card{
+    background-color: #FFFAFA;
+    width: 400px;
+}
+
+.recipe-content{
+    background-color: #FFFAFA;
+    text-align: left;
+}
+
+#container{
+    border-color: 1px solid red;
+}
+
+h3,a{
+    text-transform: uppercase;
+}
+
+.recipe-card.feature{
+    border: 2px solid red;
+    text-align: center;
+}
+
+ul, li, h3{
+    font-size: 16px;
+}
+
+.recipe-card a{
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
 }
